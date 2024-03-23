@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ExtentReportManager"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/home/vijay/Automation Testing/Amazon_AutomationTesting/src/test/java/Tests">
+        <classes>
+<!--            <class name="Tests.HomePageTest"/>-->
+<!--            <class name="Tests.ProductsPageTest"/>-->
+<!--            <class name="Tests.ProductDetailsTest"/>-->
+<!--            <class name="Tests.CartPageTest"/>-->
+<!--            <class name="Tests.SignInTest"/>-->
+            <class name="Tests.SignOutTest"/>
+
+        </classes>
+    </test>
+</suite>
